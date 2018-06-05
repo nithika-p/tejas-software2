@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--================================================================================
+  Item Name: Materialize - Material Design Admin Template
+  Version: 4.0
+  Author: PIXINVENT
+  Author URL: https://themeforest.net/user/pixinvent/portfolio
+  ================================================================================ -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
+    <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
+    <title>Materialize - Material Design Admin Template</title>
+    <!-- Favicons-->
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#00bcd4">
+    <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+    <!-- For Windows Phone -->
+    <!-- CORE CSS-->
+
+    <link href="materialize.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <!-- Custome CSS-->
+    <link href="drive-test.css" type="text/css" rel="stylesheet">
+    <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
+    <link href="perfect-scrollbar.css" type="text/css" rel="stylesheet">
+    <link href="jquery-jvectormap.css" type="text/css" rel="stylesheet">
+    <link href="flag-icon.min.css" type="text/css" rel="stylesheet">
+    <script src="jquery.min.js"></script>
+    <script type="text/javascript" src="drive-test.js"></script>
+  </head>
+  <body class="layout-semi-dark">
+    <!-- Start Page Loading -->
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+    <!-- End Page Loading -->
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+    <!-- START HEADER -->
+    <header id="header" class="page-topbar">
+      <!-- start header nav-->
+      <div class="navbar-fixed">
+        <nav class="navbar-color">
+          <div class="nav-wrapper">
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <a href="javascript:void(0);" class="waves-effect waves-block waves-light translation-button" data-activates="translation-dropdown">
+                  <span class="flag-icon flag-icon-gb"></span>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:void(0);" class="waves-effect waves-block waves-light notification-button" data-activates="notifications-dropdown">
+                  <!--<i class="material-icons">notifications_none
+                    <sma.ll class="notification-badge">5</small>
+                  </i>-->
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0);" class="waves-effect waves-block waves-light profile-button" data-activates="profile-dropdown">
+                  <span class="avatar-status avatar-online">
+                    <img src="avatar-7.png" alt="avatar">
+                    <i></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#" data-activates="chat-out" class="waves-effect waves-block waves-light chat-collapse">
+                  <!--<i class="material-icons">format_indent_increase</i>-->
+                </a>
+              </li>
+            </ul>
+            <!-- translation-button -->
+
+            <!-- notifications-dropdown -->
+            <ul id="notifications-dropdown" class="dropdown-content">
+              <li>
+                <h6>NOTIFICATIONS
+                  <span class="new badge">5</span>
+                </h6>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="#!" class="grey-text text-darken-2">
+                  <span class="material-icons icon-bg-circle cyan small">add_shopping_cart</span> A new order has been placed!</a>
+                <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">2 hours ago</time>
+              </li>
+              <li>
+                <a href="#!" class="grey-text text-darken-2">
+                  <span class="material-icons icon-bg-circle red small">stars</span> Completed the task</a>
+                <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">3 days ago</time>
+              </li>
+              <li>
+                <a href="#!" class="grey-text text-darken-2">
+                  <span class="material-icons icon-bg-circle teal small">settings</span> Settings updated</a>
+                <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">4 days ago</time>
+              </li>
+              <li>
+                <a href="#!" class="grey-text text-darken-2">
+                  <span class="material-icons icon-bg-circle deep-orange small">today</span> Director meeting started</a>
+                <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">6 days ago</time>
+              </li>
+              <li>
+                <a href="#!" class="grey-text text-darken-2">
+                  <span class="material-icons icon-bg-circle amber small">trending_up</span> Generate monthly report</a>
+                <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">1 week ago</time>
+              </li>
+            </ul>
+            <!-- profile-dropdown -->
+            <ul id="profile-dropdown" class="dropdown-content">
+              <li>
+                <a href="#" class="grey-text text-darken-1">
+                  <i class="material-icons"></i> Profile</a>
+              </li>
+              <li>
+                <a href="#" class="grey-text text-darken-1">
+                  <i class="material-icons"></i> Settings</a>
+              </li>
+              <li>
+                <a href="#" class="grey-text text-darken-1">
+                  <i class="material-icons"></i> Help</a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="#" class="grey-text text-darken-1">
+                  <i class="material-icons"></i> Lock</a>
+              </li>
+              <li>
+                <a href="#" class="grey-text text-darken-1">
+                  <i class="material-icons"></i> Logout</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- END HEADER -->
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+    <!-- START MAIN -->
+    <div id="main">
+      <!-- START WRAPPER -->
+      <div class="wrapper">
+        <!-- START LEFT SIDEBAR NAV-->
+        <aside id="left-sidebar-nav" class="nav-expanded nav-lock nav-collapsible">
+          <div class="brand-sidebar">
+            <h1 class="logo-wrapper">
+              <a>
+                <img class="tejas-logo" src="logo.png">
+                <!--<span class="logo-text hide-on-med-and-down">Tejas</span>-->
+              </a>
+            </h1>
+          </div>
+          <ul id="slide-out" class="side-nav fixed leftside-navigation">
+            <li class="no-padding">
+              <ul class="collapsible" data-collapsible="accordion">
+                <li class="bold">
+                  <a class="collapsible-header waves-effect waves-cyan active">
+                    <i class="fab fa-windows"></i>
+                    <span class="nav-text">Dashboard</span>
+                  </a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li class="active">
+                        <a href="index.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>eCommerce</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="dashboard-analytics.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>Analytics</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="bold">
+                  <a class="collapsible-header waves-effect waves-cyan">
+                    <i class="fas fa-file-alt"></i>
+                    <span class="nav-text">Tests</span>
+                  </a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li>
+                        <a href="drive-test.html">
+                          <i class="fas fa-mobile-android"></i>
+                          <span>Drive Test</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="Scheduled-Tests.html">
+                          <i class="fas fa-window-restore"></i>
+                          <span>Scheduled Tests</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="Running-tests.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>Currently running tests</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="bold">
+                  <a href="app-email.html" class="waves-effect waves-cyan">
+                    <i class="material-icons"></i>
+                    <span class="nav-text">Past Test Result</span>
+                  </a>
+                </li>
+                <li class="bold">
+                  <a class="collapsible-header waves-effect waves-cyan">
+                    <i class="fas fa-table"></i>
+                    <span class="nav-text">Logs</span>
+                  </a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li>
+                        <a href="layout-light.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>View logs</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="layout-dark.html">
+                          <i class="fas fa-share-alt"></i>
+                          <span>Export logs</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="bold">
+                  <a href="app-email.html" class="waves-effect waves-cyan">
+                    <i class="fas fa-envelope"></i>
+                    <span class="nav-text">Mailbox</span>
+                  </a>
+                </li>
+                <li class="bold">
+                  <a href="app-calendar.html" class="waves-effect waves-cyan">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span class="nav-text">Calendar</span>
+                  </a>
+                </li>
+                <li class="bold">
+                  <a class="collapsible-header  waves-effect waves-cyan">
+                    <i class="fas fa-user"></i>
+                    <span class="nav-text">Pages</span>
+                  </a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li>
+                        <a href="page-contact.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>Contact Page</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="page-todo.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>ToDos</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="page-blog-1.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>Blog Type 1</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="page-blog-2.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>Blog Type 2</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="page-404.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>404</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="page-500.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>500</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="page-blank.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>Blank</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="bold">
+                  <a class="collapsible-header  waves-effect waves-cyan">
+                    <i class="fas fa-user_name"></i>
+                    <span class="nav-text">User</span>
+                  </a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li>
+                        <a href="user-profile-page.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>User Profile</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="user-login.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>Login</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="user-register.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>Register</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="user-forgot-password.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>Forgot Password</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="user-lock-screen.html">
+                          <i class="fas fa-angle-right"></i>
+                          <span>Lock Screen</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <a href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only gradient-45deg-light-blue-cyan gradient-shadow">
+            <i class="material-icons">menu</i>
+          </a>
+        </aside>
+        <!-- END LEFT SIDEBAR NAV-->
+        <!-- //////////////////////////////////////////////////////////////////////////// -->
+        <!-- START CONTENT -->
+        <section id="content">
+          <!--start container-->
+          <div class="container">
+            <!--card stats start-->
+            <div id="card-stats">
+              <div class="row">
+                <div class="col s12 m6 l3">
+                  <div class="card min-height-100 card-background">
+                    <div class="padding-2">
+                      <div class="col s12 m12">
+                        <span class="heading">PING</span>
+                        <span  id="ping-switch" class="switch"  style="float:right;">
+                          <label>
+                          Off
+                          <input type="checkbox" >
+                          <span class="lever"></span>
+                          On
+                          </label>
+                        </span>
+                      </div>
+                      <div class="input-field col s12 m12">
+                        <input id="ping-ip" type="text" class="validate">
+                        <label for="ping-ip">IP</label>
+                      </div>
+                      <div class="input-field col s12 m12">
+                        <span class="col s5 m5 l5">
+                          <input id="ping-size" type="text" class="validate">
+                          <label for="ping-size">Size</label>
+                        </span>
+                        <span class="col s7 m7 l7">
+                          <a id="ping-size-drop" class='dropdown-button btn' href="#!" data-activates='ping-size-dropdown'><i class="fas fa-angle-down"></i><span></span></a>
+                            <!-- Dropdown Structure -->
+                            <ul id='ping-size-dropdown' class='dropdown-content'>
+                              <li><a id="ping-size-1" href="#!">bytes</a></li>
+                              <li><a id="ping-size-2" href="#!">kb</a></li>
+                              <li><a id="ping-size-3" href="#!">mb</a></li>
+                            </ul>
+                        </span>
+                      </div>
+                      <div class="input-field col s12 m12">
+                        <input id="ping-count" type="text" class="validate">
+                        <label for="ping-count">Count</label>
+                        <br/><br/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card min-height-100 card-background">
+                    <div class="padding-4">
+                      <div class="col s12 m12">
+                        <span class="heading">LOCATION</span>
+                        <span id="loc-switch" class="switch"  style="float:right;">
+                          <label>
+                          Off
+                          <input type="checkbox" >
+                          <span class="lever"></span>
+                          On
+                          </label>
+                        </span>
+                      </div>
+                      <div class="input-field col s12 m12">
+                        <span class="col s5 m5 l5">
+                          <input id="location-timeout" type="text" class="validate">
+                          <label for="location-timeout">Timeout</label>
+                        </span>
+                        <span class="col s7 m7 l7">
+                          <a id="location-timeout-drop" class='dropdown-button btn' href='#!' data-activates='location-timeout-dropdown'><i class="fas fa-angle-down"></i><span></span></a>
+                            <!-- Dropdown Structure -->
+                            <ul id='location-timeout-dropdown' class='dropdown-content'>
+                              <li><a id="location-timeout-1" href="#!">sec</a></li>
+                              <li><a id="location-timeout-2" href="#!">min</a></li>
+                            </ul>
+                        </span>
+                      </div>
+                      <div class="input-field col s12 m12">
+                        <span class="col s8 m8 l8">
+                          <input id="location-accuracy" type="text" class="validate">
+                          <label for="location-accuracy">Accuracy</label>
+                        </span>
+                        <span class="heading col s4 m4 l4" style="margin-top:10px;">metres</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m6 l6">
+                  <div class="card min-height-100 card-background">
+                    <div class="padding-2">
+                      <div class="col s12 m12">
+                        <span class="heading">SPEED TEST</span>
+                        <span id="st-switch" class="switch"  style="float:right;">
+                          <label>
+                          Off
+                          <input type="checkbox" >
+                          <span class="lever"></span>
+                          On
+                          </label>
+                        </span>
+                      </div><br/><br/>
+                      <!--tabs copy start-->
+                    <div class="row">
+                      <div class="col s12">
+                        <ul class="tabs">
+                          <li class="tab col s4"><a id="ul" href="#uplink"><i class="fas fa-arrow-up"></i></a></li>
+                          <li class="tab col s4"><a id="uldl" href="#uplink-downlink"><i class="fas fa-arrows-alt-v"></i></a></li>
+                          <li class="tab col s4"><a id="dl" href="#downlink"><i class="fas fa-arrow-down"></i></a></li>
+                        </ul>
+                      </div>
+                        <div id="uplink" class="col s12">
+
+                          <div class="input-field">
+                            <input id="st-threads-ul" type="text" class="validate">
+                            <label for="st-threads-ul">Threads</label>
+                          </div>
+                          <div class="input-field">
+                            <span class="col s8 m8 l8">
+                              <input id="st-size-ul" type="text" class="validate">
+                              <label for="st-size-ul">Packet size</label>
+                            </span>
+                            <span class="col s4 m4 l4">
+                              <a id="ul-ps-drop" class='dropdown-button btn' href='#!' data-activates='ul-ps-dropdown'><i class="fas fa-angle-down"></i><span></span></a>
+                                <!-- Dropdown Structure -->
+                                <ul id='ul-ps-dropdown' class='dropdown-content'>
+                                  <li><a id="ul-ps-1" href="#!">bytes</a></li>
+                                  <li><a id="ul-ps-2" href="#!">kb</a></li>
+                                  <li><a id="ul-ps-3" href="#!">mb</a></li>
+                                </ul>
+                            </span>
+                          </div>
+                          <div class="input-field col s12 m12 l12">
+                            <span class="col s8 m8 l8">
+                              <input id="st-volume-ul" type="text" class="validate">
+                              <label for="st-volume-ul">Transfer Volume</label>
+                            </span>
+                            <span class="col s4 m4 l4">
+                              <a id="ul-tv-drop" class='dropdown-button btn' href='#!' data-activates='ul-tv-dropdown'><i class="fas fa-angle-down"></i><span></span></a>
+                                <!-- Dropdown Structure -->
+                                <ul id='ul-tv-dropdown' class='dropdown-content'>
+                                  <li><a id="ul-tv-1" href="#!">bytes</a></li>
+                                  <li><a id="ul-tv-2" href="#!">kb</a></li>
+                                  <li><a id="ul-tv-3" href="#!">mb</a></li>
+                                  <li><a id="ul-tv-4" href="#!">gb</a></li>
+                                </ul>
+                            </span>
+                          </div>
+                          <div class="input-field col s12 m12 l12">
+                            <span class="col s8 m8 l8">
+                              <input id="st-duration-ul" type="text" class="validate">
+                              <label for="st-duration-ul">Maximum Duration</label>
+                            </span>
+                            <span class="col s4 m4 l4">
+                              <a id="ul-md-drop" class='dropdown-button btn' href='#!' data-activates='ul-md-dropdown'><i class="fas fa-angle-down"></i><span></span></a>
+                                <!-- Dropdown Structure -->
+                                <ul id='ul-md-dropdown' class='dropdown-content'>
+                                  <li><a id="ul-md-1" href="#!">ms</a></li>
+                                  <li><a id="ul-md-2" href="#!">sec</a></li>
+                                  <li><a id="ul-md-3" href="#!">min</a></li>
+                                </ul>
+                            </span>
+                          </div>
+                           <div class=" col s12 m12 l12">
+                              <span class="heading">Random Packets</span>
+                              <span id="rp-ul-switch" class="switch"  style="float:right;">
+                                <label>
+                                Off
+                                <input type="checkbox" >
+                                <span class="lever"></span>
+                                On
+                                </label>
+                              </span><br/><br/><br/><br/>
+                            </div>
+                        </div>
+                        <div id="uplink-downlink" class="col s12">
+                          <div>
+                            <span class="input-field col s12 m12 l6">
+                              <input id="st-threads-uldl-ul" type="text" class="validate">
+                              <label for="st-threads-uldl-ul">Threads UL</label>
+                            </span>
+                            <span class="input-field col s12 m12 l6">
+                              <input id="st-threads-uldl-dl" type="text" class="validate">
+                              <label for="st-threads-uldl-dl">Threads DL</label>
+                            </span>
+                          </div>
+                          <div class="col s12 m12 l6">
+                            <span class="input-field col s6 m6 l6">
+                              <input id="st-size-uldl-ul" type="text" class="validate">
+                              <label for="st-size-uldl-ul">Packet size UL</label>
+                            </span>
+                            <span class="col s6 m6 l6">
+                              <a id="uldl-ul-ps-drop" class='dropdown-button btn' href='#' data-activates='uldl-ul-ps-dropdown'><i class="fas fa-angle-down"></i><span></span></a>
+                                <!-- Dropdown Structure -->
+                                <ul id='uldl-ul-ps-dropdown' class='dropdown-content'>
+                                  <li><a id="uldl-ul-ps-1" href="#!">bytes</a></li>
+                                  <li><a id="uldl-ul-ps-2" href="#!">kb</a></li>
+                                  <li><a id="uldl-ul-ps-3" href="#!">mb</a></li>
+                                </ul>
+                            </span>
+                          </div>
+                          <div class="col s12 m12 l6">
+                            <span class="input-field col s6 m6 l6">
+                              <label for="st-size-uldl-dl">Packet size DL</label>
+                              <input id="st-size-uldl-dl" type="text" class="validate">
+                            </span>
+                            <span class="col s6 m6 l6s">
+                              <a id="uldl-dl-ps-drop" class='dropdown-button btn' href='#' data-activates='uldl-dl-ps-dropdown'><i class="fas fa-angle-down"></i><span></span></a>
+                                <!-- Dropdown Structure -->
+                                <ul id='uldl-dl-ps-dropdown' class='dropdown-content'>
+                                  <li><a id="uldl-dl-ps-1" href="#!">bytes</a></li>
+                                  <li><a id="uldl-dl-ps-2" href="#!">kb</a></li>
+                                  <li><a id="uldl-dl-ps-3" href="#!">mb</a></li>
+                                </ul>
+                            </span>
+                          </div>
+                          <div class="col s12 m12 l6">
+                            <span class="input-field col s6 m6 l6">
+                              <input id="st-volume-uldl-ul" type="text" class="validate">
+                              <label for="st-volume-uldl-ul">Transfer Volume UL</label>
+                            </span>
+                            <span class="col s6 m6 l6">
+                              <a id="uldl-ul-tv-drop" class='dropdown-button btn' href='#' data-activates='uldl-ul-tv-dropdown'><i class="fas fa-angle-down"></i><span></span></a>
+                                <!-- Dropdown Structure -->
+                                <ul id='uldl-ul-tv-dropdown' class='dropdown-content'>
+                                  <li><a id="uldl-ul-tv-1" href="#!">bytes</a></li>
+                                  <li><a id="uldl-ul-tv-2" href="#!">kb</a></li>
+                                  <li><a id="uldl-ul-tv-3" href="#!">mb</a></li>
+                                  <li><a id="uldl-ul-tv-4" href="#!">gb</a></li>
+                                </ul>
+                            </span>
+                          </div>
+                          <div class="col s12 m12 l6">
+                            <span class="input-field col s12 m12 l6">
+                              <input id="st-volume-uldl-dl" type="text" class="validate">
+                              <label for="st-volume-uldl-dl">Transfer Volume DL</label>
+                            </span>
+                            <span class="col s6 m6 l6s">
+                              <a id="uldl-dl-tv-drop" class='dropdown-button btn' href='#' data-activates='uldl-dl-tv-dropdown'><i class="fas fa-angle-down"></i><span></span></a>
+                                <!-- Dropdown Structure -->
+                                <ul id='uldl-dl-tv-dropdown' class='dropdown-content'>
+                                  <li><a id="uldl-dl-tv-1" href="#!">bytes</a></li>
+                                  <li><a id="uldl-dl-tv-2" href="#!">kb</a></li>
+                                  <li><a id="uldl-dl-tv-3" href="#!">mb</a></li>
+                                  <li><a id="uldl-dl-tv-4" href="#!">gb</a></li>
+                                </ul>
+                            </span>
+                          </div>
+                          <div class="col s12 m12 l6">
+                            <span class="input-field col s6 m6 l6s">
+                              <input id="st-duration-uldl-ul" type="text" class="validate">
+                              <label for="st-duration-uldl-ul">Max Duration UL</label>
+                            </span>
+                            <span class="col s6 m6 l6">
+                              <a id="uldl-ul-md-drop" class='dropdown-button btn' href='#' data-activates='uldl-ul-md-dropdown'><i class="fas fa-angle-down"></i><span></span></a>
+                                <!-- Dropdown Structure -->
+                                <ul id='uldl-ul-md-dropdown' class='dropdown-content'>
+                                  <li><a id="uldl-ul-md-1" href="#!">ms</a></li>
+                                  <li><a id="uldl-ul-md-2" href="#!">sec</a></li>
+                                  <li><a id="uldl-ul-md-3" href="#!">min</a></li>
+                                </ul>
+                            </span>
+                          </div>
+                          <div class="col s12 m12 l6">
+                            <span class="input-field col s6 m6 l6s">
+                              <input id="st-duration-uldl-dl" type="text" class="validate">
+                              <label for="st-duration-uldl-dl">Max Duration DL</label>
+                            </span>
+                            <span class="col s6 m6 l6">
+                              <a id="uldl-dl-md-drop" class='dropdown-button btn' href='#' data-activates='uldl-dl-md-dropdown'><i class="fas fa-angle-down"></i><span></span></a>
+                                <!-- Dropdown Structure -->
+                                <ul id='uldl-dl-md-dropdown' class='dropdown-content'>
+                                  <li><a id="uldl-dl-md-1" href="#!">ms</a></li>
+                                  <li><a id="uldl-dl-md-2" href="#!">sec</a></li>
+                                  <li><a id="uldl-dl-md-3" href="#!">min</a></li>
+                                </ul>
+                            </span>
+                          </div>
+                           <div class="col s12 m12 l12">
+                              <span class="heading">Random Packets</span>
+                              <span id="rp-uldl-switch" class="switch"  style="float:right;">
+                                <label>
+                                Off
+                                <input type="checkbox" >
+                                <span class="lever"></span>
+                                On
+                                </label>
+                              </span><br/><br/><br/><br/>
+                            </div>
+                        </div>
+                        <div id="downlink" class="col s12">
+                          <div class="input-field">
+                            <input id="st-threads-dl" type="text" class="validate">
+                            <label for="st-threads-dl">Threads</label>
+                          </div>
+                          <div class="input-field">
+                            <span class="col s8 m8 l8">
+                              <input id="st-size-dl" type="text" class="validate">
+                              <label for="st-size-dl">Packet size</label>
+                            </span>
+                            <span class="col s4 m4 l4">
+                              <a id="dl-ps-drop" class='dropdown-button btn' href='#!' data-activates='dl-ps-dropdown'><i class="fas fa-angle-down"></i><span></span></a>
+                                <!-- Dropdown Structure -->
+                                <ul id='dl-ps-dropdown' class='dropdown-content'>
+                                  <li><a id="dl-ps-1" href="#!">bytes</a></li>
+                                  <li><a id="dl-ps-2" href="#!">kb</a></li>
+                                  <li><a id="dl-ps-3" href="#!">mb</a></li>
+                                </ul>
+                            </span>
+                          </div>
+                          <div class="input-field col s12 m12 l12">
+                            <span class="col s8 m8 l8">
+                              <input id="st-volume-dl" type="text" class="validate">
+                              <label for="st-volume-dl">Transfer Volume</label>
+                            </span>
+                            <span class="col s4 m4 l4">
+                              <a id="dl-tv-drop" class='dropdown-button btn' href='#' data-activates='dl-tv-dropdown'><i class="fas fa-angle-down"></i><span></span></a>
+                                <!-- Dropdown Structure -->
+                                <ul id='dl-tv-dropdown' class='dropdown-content'>
+                                  <li><a id="dl-tv-1" href="#!">bytes</a></li>
+                                  <li><a id="dl-tv-2" href="#!">kb</a></li>
+                                  <li><a id="dl-tv-3" href="#!">mb</a></li>
+                                  <li><a id="dl-tv-4" href="#!">gb</a></li>
+                                </ul>
+                            </span>
+                          </div>
+                          <div class="input-field col s12 m12 l12">
+                            <span class="col s8 m8 l8">
+                              <input id="st-duration-dl" type="text" class="validate">
+                              <label for="st-duration-dl">Maximum Duration</label>
+                            </span>
+                            <span class="col s4 m4 l4">
+                              <a id="dl-md-drop" class='dropdown-button btn' href='#' data-activates='dl-md-dropdown'><i class="fas fa-angle-down"></i><span></span></a>
+                                <!-- Dropdown Structure -->
+                                <ul id='dl-md-dropdown' class='dropdown-content'>
+                                  <li><a id="dl-md-1" href="#!">ms</a></li>
+                                  <li><a id="dl-md-2" href="#!">sec</a></li>
+                                  <li><a id="dl-md-3" href="#!">min</a></li>
+                                </ul>
+                            </span>
+                          </div>
+                           <div class=" col s12 m12 l12">
+                              <span class="heading">Random Packets</span>
+                              <span  id="rp-dl-switch" class="switch"  style="float:right;">
+                                <label>
+                                Off
+                                <input type="checkbox" >
+                                <span class="lever"></span>
+                                On
+                                </label>
+                              </span><br/><br/><br/><br/>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div><!--//padding ends-->
+                  </div><!--//card ends-->
+                </div>
+                <div class="col s12 m6 l3">
+                  <div class="card min-height-100 card-background">
+                    <div class="padding-4">
+                      <div class="col s12 m12">
+                        <span class="heading">LTE</span>
+                        <span id="lte-switch" class="switch"  style="float:right;">
+                          <label>
+                          Off
+                          <input type="checkbox" >
+                          <span class="lever"></span>
+                          On
+                          </label>
+                        </span>
+                      </div><br/><br/>
+                      <div>
+                        <span class="col s12 m6 l6">
+                          <input type="checkbox" class="filled-in" id="RSRP" checked="checked" />
+                          <label for="RSRP">RSRP</label>
+                        </span>
+                        <span class="col s12 m6 l6">
+                          <input type="checkbox" class="filled-in" id="RSRQ" checked="checked" />
+                          <label for="RSRQ">RSRQ</label>
+                        </span>
+                      </div>
+                      <div>
+                        <span class="col s12 m6 l6">
+                          <input type="checkbox" class="filled-in" id="RSSNR" checked="checked" />
+                          <label for="RSSNR">RSSNR</label>
+                        </span>
+                        <span class="col s12 m6 l6">
+                          <input type="checkbox" class="filled-in" id="Cell-PCI" checked="checked" />
+                          <label for="Cell-PCI">Cell PCI</label>
+                        </span>
+                      </div>
+                      <div>
+                        <span class="col s12 m6 l6">
+                          <input type="checkbox" class="filled-in" id="Cell-ID" checked="checked" />
+                          <label for="Cell-ID">Cell ID</label>
+                        </span>
+                        <span class="col s12 m6 l6">
+                          <input type="checkbox" class="filled-in" id="Cell-TA" checked="checked" />
+                          <label for="Cell-TA">Cell TA</label>
+                        </span>
+                      </div>
+                      <div>
+                        <span class="col s12 m6 l6">
+                          <input type="checkbox" class="filled-in" id="MNC" checked="checked" />
+                          <label for="MNC">MNC</label>
+                        </span>
+                        <span class="col s12 m6 l6">
+                          <input type="checkbox" class="filled-in" id="Cell-TAC" checked="checked" />
+                          <label for="Cell-TAC">Cell TAC</label>
+                        </span>
+                      </div>
+                      <div>
+                        <span class="col s12 m6 l6">
+                          <input type="checkbox" class="filled-in" id="MCC" checked="checked" />
+                          <label for="MCC">MCC</label>
+                        </span>
+                        <span class="col s12 m6 l6">
+                          <input type="checkbox" class="filled-in" id="EARFCN" checked="checked" />
+                          <label for="EARFCN">EARFCN</label><br/><br/>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card min-height-100 card-background">
+                   <div class="padding-4">
+                     <div class="col s12 m12">
+                       <span class="heading">TEST PARAMETERS</span>
+                     </div>
+                     <div class="input-field col s12 m12">
+                       <span class="col s5 m5 l5">
+                         <input id="test-delay" type="text" class="validate">
+                         <label for="test-delay">Test Delay</label>
+                       </span>
+                       <span class="col s7 m7 l7">
+                         <a id="test-delay-drop" class='dropdown-button btn' href='#!' data-activates='test-delay-dropdown'><i class="fas fa-angle-down"></i><span></span></a>
+                           <!-- Dropdown Structure -->
+                           <ul id='test-delay-dropdown' class='dropdown-content'>
+                             <li><a id="test-delay-1" href="#!">sec</a></li>
+                             <li><a id="test-delay-2" href="#!">min</a></li>
+                           </ul>
+                       </span>
+                     </div>
+                     <div class="input-field col s12 m12">
+                       <input id="test-count" type="text" class="validate">
+                       <label for="test-count">Test Count</label>
+                     </div>
+                     <div class="col s12 m12">
+                       <span class="heading">Infinite</span>
+                       <span id="tp-inf-switch" class="switch"  style="float:right;">
+                         <label>
+                         Off
+                         <input type="checkbox" >
+                         <span class="lever"></span>
+                         On
+                       </label><br/><br/>
+                       </span>
+                     </div>
+                     <div style="text-align: center;"><a id="start-test-btn" class="waves-effect waves-light  btn">Start</a></div>
+                   </div>
+                 </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12 m6 l3">
+                   <div class="card min-height-100 card-background">
+                    <div class="padding-4">
+                      <div class="col s12 m12">
+                        <span class='heading'>SAVE TEST</span>
+                      </div>
+                      <div class="input-field col s12 m12">
+                        <input id="test-name" type="text" class="validate">
+                        <label for="test-name">Test Name</label>
+                      </div>
+                      <div style="text-align: center;"><a id="save-test-btn" class="waves-effect waves-light  btn">Save</a></div>
+                    </div>
+                   </div>
+                </div>
+                <div class="col s12 m6 l5">
+                   <div class="card min-height-100 card-background">
+                    <div class="padding-4">
+                      <div class="col s12 m12">
+                        <span class="heading">IPERF</span>
+                        <span id="iperf-switch" class="switch"  style="float:right;">
+                          <label>
+                          Off
+                          <input type="checkbox" >
+                          <span class="lever"></span>
+                          On
+                          </label>
+                        </span>
+                      </div><br/><br/>
+                      <div>
+                        <span class="col s6 m6 l6">
+                          <input class="with-gap" name="group1" type="radio" id="iperf-client-rb"  />
+                          <label for="iperf-client-rb">Client</label>
+                        </span>
+                        <span class="col s6 m6 l6">
+                          <input class="with-gap" name="group1" type="radio" id="iperf-server-rb"  />
+                          <label for="iperf-server-rb">Server</label>
+                        </span>
+                      </div>
+
+                      <div class="input-field col s12 m12">
+                        <input id="iperf-args" type="text" class="validate">
+                        <label for="iperf-args">Arguments</label>
+                      </div>
+                      <div class="input-field col s12 m12">
+                        <span class="col s8 m8 l8">
+                          <input id="iperf-ip" type="text" class="validate">
+                          <label for="iperf-ip">Client argument</label>
+                        </span>
+                        <span class="col s4 m4 l4">(only for server)</span>
+                      </div>
+                      <div style="text-align: center;"><a id="save-test-btn" class="waves-effect waves-light  btn">Save</a></div>
+                    </div>
+                   </div>
+                </div>
+                <div class="col s12 m6 l4">
+                   <div class="card min-height-100 card-background">
+                    <div class="padding-4">
+                      <div class="col s12 m12">
+                        <span class='heading'>SCHEDULE TEST</span>
+                      </div>
+                      <div class="input-field col s12 m12">
+                        <input id="test-count" type="text" class="validate">
+                        <label for="test-count">Test Name</label>
+                      </div>
+                      <div class="col s12">
+                        <ul class="tabs tab-demo z-depth-1">
+                          <li class="tab col s6"><a href="#test1">Specific time</a>
+                          </li>
+                          <li class="tab col s6"><a href="#test2">Repeated test</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div id="test1" class="col s12">
+                        <div class="input-field col s12 m12">
+                          <input id="schedule-start-time" type="text" class="validate">
+                          <label for="schedule-start-time">Test Starting Time</label>
+                        </div>
+                        <div style="text-align: center;">
+                          <a id="start-test-btn" class="waves-effect waves-light  btn">Save</a>
+                        </div><br/><br/>
+                      </div>
+                      <div id="test2" class="col s12">
+                        <div style="text-align: center;">
+                          <a id="start-test-btn" class="waves-effect waves-light  btn">Save</a>
+                        </div><br/><br/>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card stats end-->
+            <!--yearly & weekly revenue chart start-->
+            <!--yearly & weekly revenue chart end-->
+
+            <!--end container-->
+        </section>
+        <!-- END CONTENT -->
+
+        <!-- //////////////////////////////////////////////////////////////////////////// -->
+        <!-- START RIGHT SIDEBAR NAV-->
+        <aside id="right-sidebar-nav">
+          <ul id="chat-out" class="side-nav rightside-navigation">
+            <li class="li-hover">
+              <div class="row">
+                <div class="col s12 border-bottom-1 mt-5">
+                  <ul class="tabs">
+                    <li class="tab col s4">
+                      <a href="#activity" class="active">
+                        <span class="material-icons">graphic_eq</span>
+                      </a>
+                    </li>
+                    <li class="tab col s4">
+                      <a href="#chatapp">
+                        <span class="material-icons">face</span>
+                      </a>
+                    </li>
+                    <li class="tab col s4">
+                      <a href="#settings">
+                        <span class="material-icons">settings</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div id="settings" class="col s12">
+                  <h6 class="mt-5 mb-3 ml-3">GENERAL SETTINGS</h6>
+                  <ul class="collection border-none">
+                    <li class="collection-item border-none">
+                      <div class="m-0">
+                        <span class="font-weight-600">Notifications</span>
+                        <div class="switch right">
+                          <label>
+                            <input checked type="checkbox">
+                            <span class="lever"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <p>Use checkboxes when looking for yes or no answers.</p>
+                    </li>
+                    <li class="collection-item border-none">
+                      <div class="m-0">
+                        <span class="font-weight-600">Show recent activity</span>
+                        <div class="switch right">
+                          <label>
+                            <input checked type="checkbox">
+                            <span class="lever"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <p>The for attribute is necessary to bind our custom checkbox with the input.</p>
+                    </li>
+                    <li class="collection-item border-none">
+                      <div class="m-0">
+                        <span class="font-weight-600">Notifications</span>
+                        <div class="switch right">
+                          <label>
+                            <input type="checkbox">
+                            <span class="lever"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <p>Use checkboxes when looking for yes or no answers.</p>
+                    </li>
+                    <li class="collection-item border-none">
+                      <div class="m-0">
+                        <span class="font-weight-600">Show recent activity</span>
+                        <div class="switch right">
+                          <label>
+                            <input type="checkbox">
+                            <span class="lever"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <p>The for attribute is necessary to bind our custom checkbox with the input.</p>
+                    </li>
+                    <li class="collection-item border-none">
+                      <div class="m-0">
+                        <span class="font-weight-600">Show your emails</span>
+                        <div class="switch right">
+                          <label>
+                            <input type="checkbox">
+                            <span class="lever"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <p>Use checkboxes when looking for yes or no answers.</p>
+                    </li>
+                    <li class="collection-item border-none">
+                      <div class="m-0">
+                        <span class="font-weight-600">Show Task statistics</span>
+                        <div class="switch right">
+                          <label>
+                            <input type="checkbox">
+                            <span class="lever"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <p>The for attribute is necessary to bind our custom checkbox with the input.</p>
+                    </li>
+                  </ul>
+                </div>
+                <div id="chatapp" class="col s12">
+                  <div class="collection border-none">
+                    <a href="#!" class="collection-item avatar border-none">
+                      <img src="../../images/avatar/avatar-1.png" alt="" class="circle cyan">
+                      <span class="line-height-0">Elizabeth Elliott </span>
+                      <span class="medium-small right blue-grey-text text-lighten-3">5.00 AM</span>
+                      <p class="medium-small blue-grey-text text-lighten-3">Thank you </p>
+                    </a>
+                    <a href="#!" class="collection-item avatar border-none">
+                      <img src="../../images/avatar/avatar-2.png" alt="" class="circle deep-orange accent-2">
+                      <span class="line-height-0">Mary Adams </span>
+                      <span class="medium-small right blue-grey-text text-lighten-3">4.14 AM</span>
+                      <p class="medium-small blue-grey-text text-lighten-3">Hello Boo </p>
+                    </a>
+                    <a href="#!" class="collection-item avatar border-none">
+                      <img src="../../images/avatar/avatar-3.png" alt="" class="circle teal accent-4">
+                      <span class="line-height-0">Caleb Richards </span>
+                      <span class="medium-small right blue-grey-text text-lighten-3">9.00 PM</span>
+                      <p class="medium-small blue-grey-text text-lighten-3">Keny ! </p>
+                    </a>
+                    <a href="#!" class="collection-item avatar border-none">
+                      <img src="../../images/avatar/avatar-4.png" alt="" class="circle cyan">
+                      <span class="line-height-0">June Lane </span>
+                      <span class="medium-small right blue-grey-text text-lighten-3">4.14 AM</span>
+                      <p class="medium-small blue-grey-text text-lighten-3">Ohh God </p>
+                    </a>
+                    <a href="#!" class="collection-item avatar border-none">
+                      <img src="../../images/avatar/avatar-5.png" alt="" class="circle red accent-2">
+                      <span class="line-height-0">Edward Fletcher </span>
+                      <span class="medium-small right blue-grey-text text-lighten-3">5.15 PM</span>
+                      <p class="medium-small blue-grey-text text-lighten-3">Love you </p>
+                    </a>
+                    <a href="#!" class="collection-item avatar border-none">
+                      <img src="../../images/avatar/avatar-6.png" alt="" class="circle deep-orange accent-2">
+                      <span class="line-height-0">Crystal Bates </span>
+                      <span class="medium-small right blue-grey-text text-lighten-3">8.00 AM</span>
+                      <p class="medium-small blue-grey-text text-lighten-3">Can we </p>
+                    </a>
+                    <a href="#!" class="collection-item avatar border-none">
+                      <img src="../../images/avatar/avatar-7.png" alt="" class="circle cyan">
+                      <span class="line-height-0">Nathan Watts </span>
+                      <span class="medium-small right blue-grey-text text-lighten-3">9.53 PM</span>
+                      <p class="medium-small blue-grey-text text-lighten-3">Great! </p>
+                    </a>
+                    <a href="#!" class="collection-item avatar border-none">
+                      <img src="../../images/avatar/avatar-8.png" alt="" class="circle red accent-2">
+                      <span class="line-height-0">Willard Wood </span>
+                      <span class="medium-small right blue-grey-text text-lighten-3">4.20 AM</span>
+                      <p class="medium-small blue-grey-text text-lighten-3">Do it </p>
+                    </a>
+                    <a href="#!" class="collection-item avatar border-none">
+                      <img src="../../images/avatar/avatar-9.png" alt="" class="circle teal accent-4">
+                      <span class="line-height-0">Ronnie Ellis </span>
+                      <span class="medium-small right blue-grey-text text-lighten-3">5.30 PM</span>
+                      <p class="medium-small blue-grey-text text-lighten-3">Got that </p>
+                    </a>
+                    <a href="#!" class="collection-item avatar border-none">
+                      <img src="../../images/avatar/avatar-1.png" alt="" class="circle cyan">
+                      <span class="line-height-0">Gwendolyn Wood </span>
+                      <span class="medium-small right blue-grey-text text-lighten-3">4.34 AM</span>
+                      <p class="medium-small blue-grey-text text-lighten-3">Like you </p>
+                    </a>
+                    <a href="#!" class="collection-item avatar border-none">
+                      <img src="../../images/avatar/avatar-2.png" alt="" class="circle red accent-2">
+                      <span class="line-height-0">Daniel Russell </span>
+                      <span class="medium-small right blue-grey-text text-lighten-3">12.00 AM</span>
+                      <p class="medium-small blue-grey-text text-lighten-3">Thank you </p>
+                    </a>
+                    <a href="#!" class="collection-item avatar border-none">
+                      <img src="../../images/avatar/avatar-3.png" alt="" class="circle teal accent-4">
+                      <span class="line-height-0">Sarah Graves </span>
+                      <span class="medium-small right blue-grey-text text-lighten-3">11.14 PM</span>
+                      <p class="medium-small blue-grey-text text-lighten-3">Okay you </p>
+                    </a>
+                    <a href="#!" class="collection-item avatar border-none">
+                      <img src="../../images/avatar/avatar-4.png" alt="" class="circle red accent-2">
+                      <span class="line-height-0">Andrew Hoffman </span>
+                      <span class="medium-small right blue-grey-text text-lighten-3">7.30 PM</span>
+                      <p class="medium-small blue-grey-text text-lighten-3">Can do </p>
+                    </a>
+                    <a href="#!" class="collection-item avatar border-none">
+                      <img src="../../images/avatar/avatar-5.png" alt="" class="circle cyan">
+                      <span class="line-height-0">Camila Lynch </span>
+                      <span class="medium-small right blue-grey-text text-lighten-3">2.00 PM</span>
+                      <p class="medium-small blue-grey-text text-lighten-3">Leave it </p>
+                    </a>
+                  </div>
+                </div>
+                <div id="activity" class="col s12">
+                  <h6 class="mt-5 mb-3 ml-3">RECENT ACTIVITY</h6>
+                  <div class="activity">
+                    <div class="col s3 mt-2 center-align recent-activity-list-icon">
+                      <i class="material-icons white-text icon-bg-color deep-purple lighten-2">add_shopping_cart</i>
+                    </div>
+                    <div class="col s9 recent-activity-list-text">
+                      <a href="#" class="deep-purple-text medium-small">just now</a>
+                      <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Jim Doe Purchased new equipments for zonal office.</p>
+                    </div>
+                    <div class="recent-activity-list chat-out-list row mb-0">
+                      <div class="col s3 mt-2 center-align recent-activity-list-icon">
+                        <i class="material-icons white-text icon-bg-color cyan lighten-2">airplanemode_active</i>
+                      </div>
+                      <div class="col s9 recent-activity-list-text">
+                        <a href="#" class="cyan-text medium-small">Yesterday</a>
+                        <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Your Next flight for USA will be on 15th August 2015.</p>
+                      </div>
+                    </div>
+                    <div class="recent-activity-list chat-out-list row mb-0">
+                      <div class="col s3 mt-2 center-align recent-activity-list-icon medium-small">
+                        <i class="material-icons white-text icon-bg-color green lighten-2">settings_voice</i>
+                      </div>
+                      <div class="col s9 recent-activity-list-text">
+                        <a href="#" class="green-text medium-small">5 Days Ago</a>
+                        <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Natalya Parker Send you a voice mail for next conference.</p>
+                      </div>
+                    </div>
+                    <div class="recent-activity-list chat-out-list row mb-0">
+                      <div class="col s3 mt-2 center-align recent-activity-list-icon">
+                        <i class="material-icons white-text icon-bg-color amber lighten-2">store</i>
+                      </div>
+                      <div class="col s9 recent-activity-list-text">
+                        <a href="#" class="amber-text medium-small">1 Week Ago</a>
+                        <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Jessy Jay open a new store at S.G Road.</p>
+                      </div>
+                    </div>
+                    <div class="recent-activity-list row">
+                      <div class="col s3 mt-2 center-align recent-activity-list-icon">
+                        <i class="material-icons white-text icon-bg-color deep-orange lighten-2">settings_voice</i>
+                      </div>
+                      <div class="col s9 recent-activity-list-text">
+                        <a href="#" class="deep-orange-text medium-small">2 Week Ago</a>
+                        <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">voice mail for conference.</p>
+                      </div>
+                    </div>
+                    <div class="recent-activity-list chat-out-list row mb-0">
+                      <div class="col s3 mt-2 center-align recent-activity-list-icon medium-small">
+                        <i class="material-icons white-text icon-bg-color brown lighten-2">settings_voice</i>
+                      </div>
+                      <div class="col s9 recent-activity-list-text">
+                        <a href="#" class="brown-text medium-small">1 Month Ago</a>
+                        <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Natalya Parker Send you a voice mail for next conference.</p>
+                      </div>
+                    </div>
+                    <div class="recent-activity-list chat-out-list row mb-0">
+                      <div class="col s3 mt-2 center-align recent-activity-list-icon">
+                        <i class="material-icons white-text icon-bg-color deep-purple lighten-2">store</i>
+                      </div>
+                      <div class="col s9 recent-activity-list-text">
+                        <a href="#" class="deep-purple-text medium-small">3 Month Ago</a>
+                        <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Jessy Jay open a new store at S.G Road.</p>
+                      </div>
+                    </div>
+                    <div class="recent-activity-list row">
+                      <div class="col s3 mt-2 center-align recent-activity-list-icon">
+                        <i class="material-icons white-text icon-bg-color grey lighten-2">settings_voice</i>
+                      </div>
+                      <div class="col s9 recent-activity-list-text">
+                        <a href="#" class="grey-text medium-small">1 Year Ago</a>
+                        <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">voice mail for conference.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </aside>
+        <!-- END RIGHT SIDEBAR NAV-->
+        </div>
+        <!-- END WRAPPER -->
+      </div>
+      <!-- END MAIN -->
+      <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+      <!-- ================================================
+    Scripts
+    ================================================ -->
+      <!-- jQuery Library -->
+      <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+      <!--materialize js-->
+      <script>
+         $(document).ready(function(){
+                  $('.collapsible').collapsible();
+                });
+      </script>
+      <script type="text/javascript" src="materialize.min.js"></script>
+      <!--prism-->
+      <script type="text/javascript" src="prism.js"></script>
+      <!--scrollbar-->
+      <script type="text/javascript" src="perfect-scrollbar.min.js"></script>
+      <!-- chartjs -->
+      <script type="text/javascript" src="chart.min.js"></script>
+      <!--plugins.js - Some Specific JS codes for Plugin Settings-->
+      <script type="text/javascript" src="plugins.js"></script>
+      <!--custom-script.js - Add your own theme custom JS-->
+      <!--<script type="text/javascript" src="../../js/custom-script.js"></script>-->
+      <script type="text/javascript" src="dashboard-ecommerce.js"></script>
+  </body>
+</html>
