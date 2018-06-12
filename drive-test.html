@@ -20,7 +20,7 @@
     <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
     <!-- For Windows Phone -->
     <!-- CORE CSS-->
-
+    <link rel="stylesheet" href="drive-test.css">
     <link href="materialize.css" type="text/css" rel="stylesheet">
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
@@ -132,7 +132,7 @@
                   <i class="material-icons"></i> Lock</a>
               </li>
               <li>
-                <a href="#" class="grey-text text-darken-1">
+                <a href="#" id="logout" class="grey-text text-darken-1">
                   <i class="material-icons"></i> Logout</a>
               </li>
             </ul>
@@ -840,29 +840,46 @@
                           </label>
                         </span>
                       </div><br/><br/>
-                      <div>
-                        <span class="col s6 m6 l6">
-                          <input class="with-gap" name="group1" type="radio" id="iperf-client-rb"  />
-                          <label for="iperf-client-rb">Client</label>
-                        </span>
-                        <span class="col s6 m6 l6">
-                          <input class="with-gap" name="group1" type="radio" id="iperf-server-rb"  />
-                          <label for="iperf-server-rb">Server</label>
-                        </span>
+
+                      <!--tabs start here-->
+                      <!--<div class="row">-->
+                      <div class="col s12">
+                        <ul class="tabs tab-demo z-depth-1">
+                          <li class="tab col s4"><a id="c" href="#client">Client</a>
+                          </li>
+                          <li class="tab col s4"><a id="s" href="#server">Server</a>
+                          </li>
+                          <li class="tab col s4"><a id="cs" href="#sandc">C and S</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div id="client" class="col s12">
+                        <div class="input-field col s12 m12">
+                          <input id="c-args" type="text" class="validate">
+                          <label for="c-args">Arguments</label>
+                        </div>
+                        <br/><br/>
+                      </div>
+                      <div id="server" class="col s12">
+                        <div class="input-field col s12 m12">
+                          <input id="s-args" type="text" class="validate">
+                          <label for="s-args">Arguments</label>
+                        </div>
+                        <br/><br/>
+                      </div>
+                      <div id="sandc" class="col s12">
+                        <div class="input-field col s12 m12">
+                          <input id="sc-c-args" type="text" class="validate">
+                          <label for="sc-c-args">Client Arguments</label>
+                        </div>
+                        <div class="input-field col s12 m12">
+                          <input id="sc-s-args" type="text" class="validate">
+                          <label for="sc-s-args">Server Arguments</label>
+                        </div>
+                        <br/><br/>
                       </div>
 
-                      <div class="input-field col s12 m12">
-                        <input id="iperf-args" type="text" class="validate">
-                        <label for="iperf-args">Arguments</label>
-                      </div>
-                      <div class="input-field col s12 m12">
-                        <span class="col s8 m8 l8">
-                          <input id="iperf-ip" type="text" class="validate">
-                          <label for="iperf-ip">Client argument</label>
-                        </span>
-                        <span class="col s4 m4 l4">(only for server)</span>
-                      </div>
-                      <div style="text-align: center;"><a id="save-test-btn" class="waves-effect waves-light  btn">Save</a></div>
+                      <!--</div>-->
                     </div>
                    </div>
                 </div>
@@ -876,28 +893,7 @@
                         <input id="test-count" type="text" class="validate">
                         <label for="test-count">Test Name</label>
                       </div>
-                      <div class="col s12">
-                        <ul class="tabs tab-demo z-depth-1">
-                          <li class="tab col s6"><a href="#test1">Specific time</a>
-                          </li>
-                          <li class="tab col s6"><a href="#test2">Repeated test</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div id="test1" class="col s12">
-                        <div class="input-field col s12 m12">
-                          <input id="schedule-start-time" type="text" class="validate">
-                          <label for="schedule-start-time">Test Starting Time</label>
-                        </div>
-                        <div style="text-align: center;">
-                          <a id="start-test-btn" class="waves-effect waves-light  btn">Save</a>
-                        </div><br/><br/>
-                      </div>
-                      <div id="test2" class="col s12">
-                        <div style="text-align: center;">
-                          <a id="start-test-btn" class="waves-effect waves-light  btn">Save</a>
-                        </div><br/><br/>
-                      </div>
+
 
                     </div>
                   </div>

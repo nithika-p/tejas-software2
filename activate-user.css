@@ -1,0 +1,34 @@
+label{
+  color:#130468;
+}
+.input-field label{
+  color:#130468;
+}
+body{
+  background-color:#59becc;
+}
+.tejas-logo{
+   height:40px;
+   width:100px;
+}
+.heading{
+  color:#130468;
+  font-weight: bold;
+}
+.card-background{
+  background-color: #9dccf2;
+}
+.tab{
+  background-color: #bde9f9;
+}
+.btn{
+  text-transform: capitalize;
+  font-size: 13px;
+  text-align: center;
+}
+.center{
+  text-align: center;
+}
+table{
+  color:#130468;
+}
